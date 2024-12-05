@@ -3,3 +3,106 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d8deff;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de la lista */
+.Lista {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+/* Estilo de las canciones */
+.Lista-cancion {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.Lista-cancion:hover {
+    background-color: #e0f7fa;
+    transform: scale(1.02);
+}
+
+/* Texto dentro de cada canción */
+.Lista-cancion br {
+    margin-bottom: 5px;
+}
+
+.Lista-cancion div {
+    font-size: 1rem;
+}
+
+/* Área de reproducción de la canción */
+#playingSong {
+    margin-top: 20px;
+    width: 90%;
+    max-width: 600px;
+    padding: 15px;
+    background: #c7cbff;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.2rem;
+    color: #4e4e4e;
+}
+
+/* Botones de control */
+.Button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #d48fff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Button:hover {
+    background-color: #b66dd3;
+}
+
+.Button:active {
+    background-color: #d48fff;
+}
+
+/* Botón para canción específica */
+#btnTema3 {
+    background: #d48fff;
+}
+
+#btnTema3:hover {
+    background-color: #b66dd3;
+}

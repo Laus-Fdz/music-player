@@ -13,8 +13,8 @@ listaCanciones.forEach((cancion, idx) => {
     const artist = listaArtistas[idx];
 
     // innerHTML para agregar canciones y artistas con un atributo id único
-    divListaCanciones.innerHTML += `<div id="cancion-${idx}" class="Lista-cancion"> 
-            ${song} <br> ${idx} <br> ${artist} <br>
+    divListaCanciones.innerHTML += `<div id="cancion -${idx}" class="Lista-cancion"> 
+            ${song} <br> ${artist} <br>
         </div>`;
 });
 

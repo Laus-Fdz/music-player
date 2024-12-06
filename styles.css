@@ -10,7 +10,7 @@ body {
     background-color: #d8deff;
     margin: 0;
     padding: 20px;
-    color: #333;
+    color: #1e1d1d;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +20,7 @@ body {
 /* Título principal */
 h1 {
     font-size: 2.5rem;
-    color: #444;
+    color: #1b1a1a;
     margin-bottom: 20px;
 }
 
@@ -39,6 +39,7 @@ h1 {
 .Lista-cancion {
     display: flex;
     flex-direction: column;
+    text-align: center;
     gap: 5px;
     padding: 10px;
     margin: 10px 0;
@@ -50,7 +51,7 @@ h1 {
 }
 
 .Lista-cancion:hover {
-    background-color: #e0f7fa;
+    background-color: #c7cbff;
     transform: scale(1.02);
 }
 
@@ -74,12 +75,15 @@ h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-size: 1.2rem;
-    color: #4e4e4e;
+    color: #1a1919;
 }
 
-/* Botones de control */
+/* Botones */
+
+.DivButtons {
+    margin: 20px;
+}
 .Button {
-    margin: 10px;
     padding: 10px 20px;
     background: #d48fff;
     color: #fff;
